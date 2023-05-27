@@ -1,0 +1,132 @@
+body {
+	background-image: url(https://previews.123rf.com/images/srckomkrit/srckomkrit1607/srckomkrit160703886/60309712-dirty-fabric-texture.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+#button {
+	border-radius: 40%;
+	border: 2px solid;
+	font-size: 1.5rem;
+	background-color: lightgray;
+	margin: 0 30px;
+	cursor: pointer;
+	box-sizing: content-box;
+}
+#button:hover {
+	background-color: red;
+}
+#inner-circle {
+	position: absolute;
+	border: 9px solid black;
+	background: grey;
+	box-sizing: border-box;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	top: 25%;
+	left: 25%;
+	text-transform: uppercase;
+}
+
+#switches {
+	position: absolute;
+	font-family: "Original Surfer", cursive;
+	margin-left: 27px;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+
+.text2 {
+	position: absolute;
+	font-family: "Original Surfer", cursive;
+	margin-left: 85px;
+	margin-top: 120px;
+}
+
+.text1 {
+	position: absolute;
+	font-family: "Original Surfer", cursive;
+	margin-left: 10px;
+	margin-top: 60px;
+}
+
+.text1 span:last-child {
+	padding-left: 88px;
+}
+#turn {
+	background: #330000;
+	color: red;
+	text-align: center;
+	font-size: 1.2rem;
+	vertical-align: middle;
+	position: absolute;
+	height: 20px;
+	width: 40px;
+	font-family: courier;
+	font-size: 20px;
+	top: 65%;
+	left: 41%;
+}
+
+#title {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 2rem;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-family: "Original Surfer", cursive;
+}
+#outer-circle {
+	background: #385a94;
+	border-radius: 50%;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	border: 1px solid black;
+	margin: 60px auto;
+	box-shadow: 8px 8px 15px 5px #888888;
+}
+#top-left {
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	border-radius: 250px 0 0 0;
+	background: darkgreen;
+	border: 5px solid;
+	box-sizing: border-box;
+}
+#top-right {
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	border-radius: 0 250px 0 0;
+	background: darkred;
+	left: 50%;
+	border: 5px solid black;
+	box-sizing: border-box;
+}
+
+#bottom-left {
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	background: goldenrod;
+	border: 5px solid black;
+	box-sizing: border-box;
+	border-radius: 0 0 0 250px;
+	top: 50%;
+}
+#bottom-right {
+	background: rgb(25, 187, 237);
+	position: absolute;
+	border: 5px solid black;
+	box-sizing: border-box;
+	top: 50%;
+	left: 50%;
+	height: 250px;
+	width: 250px;
+	border-radius: 0 0 250px 0;
+}
