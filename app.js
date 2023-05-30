@@ -82,37 +82,41 @@ function gameTurn() {
 }
 
 function one() {
+	if(!win) {
 	if (noise) {
 		let audio = document.getElementById("clip1");
 		audio.play();
 	}
 	noise = true;
 	topLeft.style.backgroundColor = "lightgreen";
-}
+} }
 function two() {
+	if(!win){
 	if (noise) {
 		let audio = document.getElementById("clip2");
 		audio.play();
 	}
 	noise = true;
 	topRight.style.backgroundColor = "tomato";
-}
+}}
 function three() {
+	if(!win){
 	if (noise) {
 		let audio = document.getElementById("clip3");
 		audio.play();
 	}
 	noise = true;
 	bottomLeft.style.backgroundColor = "yellow";
-}
+}}
 function four() {
+	if(!win){
 	if (noise) {
 		let audio = document.getElementById("clip4");
 		audio.play();
 	}
 	noise = true;
 	bottomRight.style.backgroundColor = "darkblue";
-}
+}}
 function clearColor() {
 	topLeft.style.backgroundColor = "darkgreen";
 	topRight.style.backgroundColor = "darkred";
